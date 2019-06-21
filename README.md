@@ -11,3 +11,8 @@ This repo contains:
 -  Promotion Material `promo`
 
 ## The App
+
+
+## Smart Contracts
+
+The smart contracts are based on https://github.com/decentrawise/repeos. 
