@@ -7,5 +7,5 @@ This project is a decentralized version of Uber. For persistent storage, the dat
 This repo contains:
 -  The App in `app`
 -  The Smart contracts `smart contracts`
--  The Website `website`
+-  The Website `website`(not needed - using Native React app. Could be used for promo later)
 -  Promotion Material `promo`
