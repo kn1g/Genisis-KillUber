@@ -4,7 +4,6 @@
 import React from 'react';
 import { StyleSheet, TouchableOpacity, Text, StyleProp, ViewStyle } from 'react-native';
 import { observer, inject } from 'mobx-react/native';
-import { computed, observable } from 'mobx';
 
 const styles = StyleSheet.create({
   container: {

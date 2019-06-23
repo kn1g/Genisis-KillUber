@@ -69,10 +69,6 @@ export default class HalfBottomDriverSelectionModal extends React.Component<Half
     this.data = fromPromise(this.eosService.listDrivers());
   }
 
-  handleBackdrop = () => {
-    this.props.rootStore!.navigation.pop();
-  };
-
   @computed
   get route(): Array<any> {
     return this.props.routeData.coordinates;

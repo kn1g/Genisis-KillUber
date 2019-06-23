@@ -23,12 +23,6 @@ const MapsTabStack = createStackNavigator(
         header: null,
       }
     },
-    DriverSelectionModal: {
-      screen: HalfBottomDriverSelectionModal,
-      navigationOptions: {
-        header: null,
-      }
-    }
   }, {
     initialRouteName: 'MapsTabIndexScreen',
     mode: 'modal',

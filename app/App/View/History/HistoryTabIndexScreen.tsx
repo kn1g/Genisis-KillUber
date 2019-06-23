@@ -13,7 +13,7 @@ export default class HistoryTabIndexScreen extends React.Component<HistoryTabInd
   render() {
     return (
       <Screen>
-        <Text>Workout Tab</Text>
+        <Text>Tab</Text>
       </Screen>
     );
   }

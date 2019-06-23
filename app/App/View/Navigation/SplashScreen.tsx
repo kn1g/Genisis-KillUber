@@ -27,11 +27,9 @@ export interface SplashScreenProps {
 @observer
 export default class SplashScreen extends React.Component<SplashScreenProps> {
   componentDidMount(): void {
-    // setTimeout(() => {
-      // this.props.rootStore!.navigation.reset('App');
-    // }, 500);
-    this.props.rootStore!.navigation.reset('Accept');
-
+    setTimeout(() => {
+      this.props.rootStore!.navigation.reset('App');
+    }, 500);
   }
 
   render() {

@@ -148,7 +148,7 @@ export default class AcceptScreen extends React.Component<AcceptScreenProps> {
       <Screen>
         <MapView
           ref={this.setMapViewRef}
-          provider={PROVIDER_GOOGLE} // remove if not using Google Maps
+          provider={PROVIDER_GOOGLE}
           style={styles.map}
           region={coords}
           onPress={this.handleMapClick}
@@ -165,8 +165,7 @@ export default class AcceptScreen extends React.Component<AcceptScreenProps> {
               destination={this.destination}
               apikey={Config.gmapsApiKey}
               strokeWidth={3}
-              strokeColor="hotpink"
-              // onReady={this.handleRouteReady}
+              strokeColor="#EA0B8C"
             />
           ) : null}
         </MapView>
