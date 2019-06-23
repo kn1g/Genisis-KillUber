@@ -8,4 +8,4 @@ This repo contains:
 -  The App in `app`
 -  The Smart contracts `smart contracts`
 -  The Website `website`(not needed - using Native React app. Could be used for promo later)
--  Promotion Material `promo`
+-  Promotion Material `promo` (video)
